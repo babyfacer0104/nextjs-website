@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# yaml 文件不上传
+*.yaml
+*.yml
+
+# 以 . 开头的文件/目录不上传（保留 .gitignore 自身）
+.*
+!.gitignore
